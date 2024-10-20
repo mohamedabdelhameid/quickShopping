@@ -1,4 +1,4 @@
-.DivmAin{
+.DivmAin {
   background-color: rgba(255, 255, 255, 0.573);
   border-radius: 15px;
   padding: 15px;
@@ -7,18 +7,18 @@
   z-index: 5;
   position: relative;
 }
-.spanTeXt{
+.spanTeXt {
   text-decoration: underline;
   color: rgba(107, 3, 107, 0.859);
   cursor: pointer;
 }
-.a2name{
-  textDecoration: none;
+.a2name {
+  text-decoration: none;
   color: rgba(107, 3, 107, 0.727);
   position: relative;
   cursor: pointer;
 }
-.a2name::before{
+.a2name::before {
   content: "";
   position: absolute;
   bottom: -3px;
@@ -28,16 +28,16 @@
   background-color: rgb(107, 3, 107);
   transition: 0.5s;
 }
-.a2name:hover:before{
+.a2name:hover:before {
   width: 100%;
   background-color: rgb(107, 3, 107);
 }
-.a2name:hover{
+.a2name:hover {
   color: rgb(107, 3, 107);
   font-weight: 500;
 }
 @media (max-width: 424px) {
-  .a2name{
+  .a2name {
     display: block;
   }
 }

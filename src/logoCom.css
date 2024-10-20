@@ -19,7 +19,7 @@
 
 @media (max-width: 570px) {
   .container .row .col:nth-child(2) {
-      transform: translate(10px, -46px);
+      transform: translate(0px, -46px);
   }
 }
 /* @media (max-width: 570px) {
