@@ -1,0 +1,18 @@
+.buttonss{
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(9, 118, 81);
+  display: grid;
+  grid-template-columns: 120px 120px;
+  column-gap: 50px;
+  row-gap: 50px;
+  padding: 20px;
+  justify-content: center;
+}
+.buttonss button{
+  box-shadow: 0 10px 15px 0px #000;
+}
+.Buttonss1{
+  grid-column: 1/3;
+  
+}
