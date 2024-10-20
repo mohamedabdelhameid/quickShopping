@@ -17,7 +17,7 @@
 }
 form{
   width: 70%;
-  transform: translate(0 100%);
+  /* transform: translate(0 100%); */
   margin-left: 10%;
   background-color: rgba(223, 231, 248, 0.514);
   padding: 40px 10px;
